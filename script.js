@@ -7,7 +7,7 @@ for(let i = 0; i<data.length; i++){
     var h3 = document.createElement("h3");
     var img = document.createElement("img");
     div.appendChild(img);
-    img.src = "/icons/url.svg";
+    img.src = "./icons/url.svg";
     div.appendChild(h3);
     h3.innerText = data[i];
     bc.appendChild(div);
