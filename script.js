@@ -14,6 +14,6 @@ for(let i = 0; i<data.length; i++){
     div.onclick = function(e){
         var d = this.innerText;
         var dd = d.replaceAll('projects','');
-        document.location.href = './projects/'+dd;
+        document.location.href = 'https://github.com/hotbite/ian.io/tree/main/projects'+dd;
     }
 }
