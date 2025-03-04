@@ -1,0 +1,223 @@
+
+
+    *{
+        box-sizing: border-box;
+        color: white;
+        font-family: arial;
+     
+     }
+     #sp{
+         font-size: smaller;
+     }
+     body{
+         background-color: #111111;
+     }
+     .cont{
+         background-color: black;
+         padding: 12px;
+         display: flex;
+         flex-direction: column;
+     }
+     #name{
+         padding: 10px;
+         color: rgb(4, 252, 99);
+         text-align: center;
+         border: 2px solid rgb(4, 252, 99);
+         border-radius: 10px;
+     
+     }
+     hr{
+         border: 2px solid rgb(4, 252, 99);
+         border-radius: 10px;
+         outline: none;
+         width: 20%;
+         justify-items: center;
+         justify-content: center;
+         align-items: center;
+         align-content: center;
+     }
+     .nav{
+         padding: 5px;
+     }
+     .nav button{
+         background: none;
+         padding: 5px;
+         outline: none;
+         border: none;
+         width: 60px;
+         height: 25px;
+         font-family: arial;
+         font-weight: bolder;
+         transition: 0.5s;
+     }
+     .nav button:hover{
+         background-color: green;
+     }
+     .nav-btn{
+         float: right;
+     }
+     #lst{
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         grid-gap: 5px;
+         list-style-type: none;
+         
+     }
+     #lst li{
+         background-color: #131212;
+         padding: 5px;
+         font-weight: bolder;
+         border-radius: 8px;
+         
+     }
+     .social{
+         background-color: rgba(3, 83, 43, 0.342);
+         padding: 10px;
+     }
+     .social button{
+         background-color: black;
+         border: none;
+         outline: none;
+         width: 60px;
+         padding: 5px;
+         height: 25px;
+         font-weight: bold;
+         color: rgb(0, 255, 98);
+     }
+     .social button:hover{
+         background-color: green;
+     }
+     #lime{
+         color: rgb(0, 255, 98);
+     }
+     .l1{
+         float: left;
+         width: 50%;
+         padding: 10px;
+     }
+     .r1{
+         float: left;
+         width: 50%;
+         padding: 10px;
+     }
+     #img{
+         width: 10%;
+     }
+     #p-img{
+         width: 70%;
+     
+     }
+     .sect2{
+         display: flex;
+         flex-direction: column;
+         
+     }
+     .b2-cont img{
+         width: 20%;
+     }
+     #download{
+         background-image: linear-gradient(to right, green, rgb(1, 83, 38));
+         color: white;
+         border-radius: 10px;
+         height: 30px;
+         font-weight: bolder;
+         padding: 5px;
+         width: 100px;
+         outline: none;
+         border: none;
+     }
+     .b-cont1{
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 5px;
+     }
+     .b-cont1 div{
+         background-color:  rgba(3, 83, 43, 0.342);
+         padding: 8px;
+         border-radius: 5px;
+         justify-items: center;
+         align-items: center;
+         text-align: center;
+         
+     }
+     .b-cont1 p{
+         font-weight: bolder;
+         color: white;
+         font-size: xx-large;
+         background-color: black;
+     }
+     #bio{
+         font-weight: bold;
+     
+     }
+     .hire button:hover{
+         background-color: green;
+     }
+     
+     #hireme{
+         border: 2px solid rgba(1, 243, 122, 0.973);
+         background-color: black;
+         border-radius: 8px;
+         width: 100px;
+         padding: 5px;
+     }
+     .hire button{
+       background-color: rgb(3, 250, 114);
+       color: black;
+       font-weight: bolder;
+       padding: 5px;
+       width: 60px;
+       outline: none;
+       border: none;
+     }
+     .hire button:hover{
+         background-color: black;
+         color: white;
+     }
+     #bold{
+         font-weight: bolder;
+         font-family: monospace;
+     }
+     .b2-cont{
+         display: grid;
+         grid-template-columns: repeat(5, 1fr);
+         grid-gap: 5px;
+         overflow: hidden;
+     }
+     .b2-cont div{
+         background-color: rgba(3, 83, 43, 0.342);
+         padding: 8px;
+         width: 100%;
+         justify-items: center;
+         text-align: center;
+     }
+     #ic{
+         width: 20%;
+     }
+     .contacts{
+         display: grid;
+         grid-template-columns: repeat(5,1fr);
+         grid-gap: 5px;
+         padding: 10px;
+     }
+     .contacts div{
+         background-color: #1e1e1e;
+         padding: 8px;
+         border-radius: 5px;
+         width: 100%;
+     }
+     .cv button{
+         background-image: linear-gradient(to right, green, rgb(1, 83, 38));
+         color: white;
+         border-radius: 10px;
+         height: 30px;
+         font-weight: bolder;
+         padding: 5px;
+         width: 100px;
+         outline: none;
+         border: none;
+     }
+     .cv button:hover{
+         background-image: linear-gradient(to right, rgb(0, 15, 0), rgb(1, 43, 20));
+     }
+    
